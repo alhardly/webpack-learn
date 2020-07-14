@@ -10,6 +10,7 @@
    
 6. 在当前目录运行 `npx webpack-dev-server`
 
+npx webpack-dev-server 只会在内存中编译打包，没有输出
 
 注：
 之前不小心在当前目录下执行了`npm init`,然后生成了package.json文件，然后运行`npx webpack-dev-server`的时候，有点问题，删除package.json文件就好了。

@@ -43,7 +43,7 @@ module.exports = {
                 // 配置处理的最小尺寸，以及输出路径
                 options: {
                     limit: 8 * 1024,
-                    name: '[hase:10].[ext]',
+                    name: '[hash:10].[ext]',
                     esModule: false,
                     outputPath: 'imgs'
                 }
@@ -61,7 +61,7 @@ module.exports = {
                 loader: 'file-loader',
                 options: {
 
-                    name: '[hase:10].[ext]',
+                    name: '[hash:10].[ext]',
                     outputPath: 'other'
                 }
             }
